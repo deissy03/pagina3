@@ -14,19 +14,19 @@
 .header {
     background: #E6CB55;
     color: rgb(9, 9, 9);
-    padding: 85PX;
+    padding: 10px;
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
-    height: 70px;
+    height: 160px;
     display: flex;
     
  }
 
  
  .header .titulo {
-    font-size: 38px;
+    font-size: 40px;
     margin:auto;
     text-align: center;
     font-style: normal;
@@ -47,17 +47,17 @@
     flex-direction: column;
     text-align: center;
     gap: 10px;
-    background-color: rgb(244, 219, 195); 
+    background-color:#ab7549;
     transform: translateY(0);
     position:absolute;
     margin-top: 80px;
     font-size: 20px;
    }
-   .material-symbols-outlined{
+   /*.material-symbols-outlined{
     width: 60px;
-    height: 30px;
+    height: 60px;
     text-align: center;
- }
+ }*/
   
   label {
     position: absolute;
@@ -74,25 +74,23 @@
      display: none;
      z-index: 2;
   }
-  
   nav {
-    position: absolute;
-    transform: translateY(-100%);
-    transition: all 1000ms ease-in-out;
-    display:none ;
-    left: 0;
-  }
-  .container-nav {
-    display: flex;
-    justify-content: right;
-
+   position: absolute;
+   transform: translateY(-100%);
+   transition: all 1000ms ease-in-out;
+   display:none ;
+   left: 0;
  }
- 
+ .container-nav {
+   display: flex;
+   justify-content: right;
+}
  .navigation ul {
     margin: 0;
     padding: 0;
     list-style:none;
- 
+    
+
  }
  
  .navigation ul li {
@@ -103,7 +101,7 @@
  
  .navigation ul li a {
     display: block;
-    padding-left: 0, 2rem 1rem;
+    padding-left: 0, 2rem, 1rem;
     transition: all 0.4s linear;
     color: #451d22  ;
    
@@ -111,9 +109,44 @@
  
  
  .navigation ul li a:hover {
-    background:#E6CB55; 
+    background:#dbd9d2; 
  
     }
+    #checkMenu{
+      width: 50px;
+      height: 50px;
+    }
+    .imagen-total{
+      margin-top: 200px;
+      width: 100%;
+      text-align: center;
+      height: 980px;
+      background:white ;
+      position: relative;
+      margin-bottom: 100px;
+      
+   }
+
+   .imagen-total img{
+       width: 100%;
+       object-fit: cover;
+       height: 100%;
+      
+   }
+   .imagen-total div{
+       position: absolute;
+       top: 0;
+       width: 80%;
+       text-align: center;
+       padding: 20px;
+       /*background-color: rgba(0, 0, 0, 0.062);*/
+       height: 400px;
+       vertical-align: middle;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+   }
     @media screen and (max-width: 700px) {
 
     }
