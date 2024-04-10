@@ -36,7 +36,7 @@
  }
  
  .header a {
-    color: #451d22;
+    color: #b9a1a4;
     text-decoration: none;
  }
  
@@ -47,7 +47,7 @@
     flex-direction: column;
     text-align: center;
     gap: 10px;
-    background-color:#ab7549;
+    background-color:#c09b7d;
     transform: translateY(0);
     position:absolute;
     margin-top: 80px;
